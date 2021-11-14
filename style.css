@@ -97,7 +97,9 @@ body{
     margin-bottom: 3rem;
     justify-content: center;
 }
-.navgation .nav-content a:hover,
+.navgation .nav-content a:hover{
+    background: #accc85;
+}
 .navgation .nav-content-mobile-view a:hover{
     text-shadow: 4px 4px 2px rgba(0,0,0,0.4);
 }
@@ -202,7 +204,6 @@ body{
 }
 .about-us-card{
     width: 30%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,7 +232,8 @@ body{
     padding-left: 0.5rem;
     font-size: 1.5rem;
 }
-.about-us-card:hover{
+.about-us-card:hover,
+.about-us-card:focus{
     box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.4);
 -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.4);
 -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.4);
@@ -283,7 +285,8 @@ body{
     bottom: -10rem;
     transition: all 1s;
 }
-.destination-card:hover .card-about{
+.destination-card:hover .card-about,
+.destination-card:focus .card-about{
     bottom: 0;
     transition: all 1s;
 }
