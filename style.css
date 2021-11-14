@@ -209,8 +209,8 @@ body{
     align-items: center;
 }
 .about-us-card img{
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 30%;
     margin: 10% 20%;
     border-radius: 50%;
 }
